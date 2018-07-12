@@ -1,8 +1,20 @@
-# PageFocus
+# Unipark PageFocus
+With this javascript the unipark poll is able to track the behavior of the particpants.
+You can track the following values:
 
-PageFocus is a JavaScript that allows to determine if and how frequently users abandon web pages by switching to another window or browser tab.
+ - `defocusing_count` How many times did the user change to another tab.
+ - `refocusing_count` How many times did the user change to back to the unipark tab.
+ - `duration_sum` The total of the time the user spent without the unipark tab beeing active.
+ - `last_duration` How much time the user spent without the unipark tab beeing active the last time he changed tabs.
 
-The PageFocus.html file is part of the supplemental material of the article _PageFocus: Using Paradata to Detect and Prevent Cheating on Online Achievement Tests_ by Birk Diedenhofen and Jochen Musch. The JavaScript section of the file includes version 1.3 of the PageFocus script.
+This project is forked from https://github.com/deboerk/PageFocus. 
+
+## Set-Up
+
+ 1. Create a new custom html question in unipark ( Type 911)
+ 2. Create four new variables in unipark
+ 3. Change the variable names according to your new unipark variables at lines 1-4 and 14-17
+ 4. Insert the content of `main.js` to the "Edit-HTML"-Field
 
 ## License
 
